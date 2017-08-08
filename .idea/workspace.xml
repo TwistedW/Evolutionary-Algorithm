@@ -16,6 +16,7 @@
     <SUITE FILE_PATH="coverage/Evolutionary_Algorithm$Travel_Sales_Person.coverage" NAME="Travel Sales Person Coverage Results" MODIFIED="1502203860532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Evolutionary_Algorithm$_1_1__ES.coverage" NAME="(1+1)-ES Coverage Results" MODIFIED="1502204195877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Evolutionary_Algorithm$Microbial_Genetic_Algorithm.coverage" NAME="Microbial Genetic Algorithm Coverage Results" MODIFIED="1502203701879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Evolutionary_Algorithm$Natural_Evolution_Strategy__NES_.coverage" NAME="Natural Evolution Strategy (NES) Coverage Results" MODIFIED="1502204884018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -54,6 +55,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Natural Evolution Strategy (NES).py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Natural Evolution Strategy (NES).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Travel Sales Person.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Travel Sales Person.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="(1+1)-ES.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="(1+1)-ES.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/(1+1)-ES.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -111,6 +122,7 @@
         <option value="$PROJECT_DIR$/Travel Sales Person.py" />
         <option value="$PROJECT_DIR$/Evolution Strategy Basic..py" />
         <option value="$PROJECT_DIR$/(1+1)-ES.py" />
+        <option value="$PROJECT_DIR$/Natural Evolution Strategy (NES).py" />
       </list>
     </option>
   </component>
@@ -177,26 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.(1+1)-ES">
-    <configuration default="false" name="Match Phrase" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Evolutionary-Algorithm" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Match Phrase.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Natural Evolution Strategy (NES)">
     <configuration default="false" name="Microbial Genetic Algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,6 +261,25 @@
       <module name="Evolutionary-Algorithm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(1+1)-ES.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Natural Evolution Strategy (NES)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Evolutionary-Algorithm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Natural Evolution Strategy (NES).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -416,19 +428,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Match Phrase" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Microbial Genetic Algorithm" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Travel Sales Person" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Evolution Strategy Basic." />
-      <item index="4" class="java.lang.String" itemvalue="Python.(1+1)-ES" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Microbial Genetic Algorithm" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Travel Sales Person" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Evolution Strategy Basic." />
+      <item index="3" class="java.lang.String" itemvalue="Python.(1+1)-ES" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Natural Evolution Strategy (NES)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.(1+1)-ES" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Evolution Strategy Basic." />
-        <item index="2" class="java.lang.String" itemvalue="Python.Travel Sales Person" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Microbial Genetic Algorithm" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Match Phrase" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Natural Evolution Strategy (NES)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.(1+1)-ES" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Evolution Strategy Basic." />
+        <item index="3" class="java.lang.String" itemvalue="Python.Travel Sales Person" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Microbial Genetic Algorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -536,6 +548,22 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/contrib/distributions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Natural Evolution Strategy (NES).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
